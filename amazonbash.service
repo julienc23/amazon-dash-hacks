@@ -1,4 +1,4 @@
-t]
+[Unit]
 Description=Amazon Bash service
 After=network.target multi-user.target
 
