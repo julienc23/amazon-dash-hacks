@@ -1,0 +1,12 @@
+t]
+Description=Amazon Bash service
+After=network.target multi-user.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/local/bin/amazon-bash.sh &
+
+
+[Install]
+WantedBy=multi-user.target
